@@ -1,0 +1,33 @@
+{
+  "name": "covid19-registry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^2.6.5",
+    "form-data": "^3.0.0",
+    "moment": "^2.29.1",
+    "vue": "^2.6.12",
+    "vue-loading-spinner": "^1.0.11",
+    "vue-router": "^3.4.9",
+    "vue2-timepicker": "^1.1.5",
+    "vuejs-datepicker": "^1.6.2",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

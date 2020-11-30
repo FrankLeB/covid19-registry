@@ -1,0 +1,16 @@
+.vscode
+covid19-registry/node_modules
+covid19-registry/dist
+covid19-registry/npm-debug.log
+covid19-registry/yarn-error.log
+
+server/node_modules
+server/images
+server/.env
+
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*DS_Store*

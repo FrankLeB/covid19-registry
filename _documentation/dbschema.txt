@@ -1,0 +1,25 @@
+Table entries {
+  id int [pk]
+  userId int [ref: > users.id]
+  temperature decimal(9, 2)
+  entryDate datetime
+}
+
+Table entry_answers {
+  id int [pk]
+  entryId int [ref: > entries.id]
+  question text
+  answer boolean
+}
+
+Table questions {
+  id int [pk]
+  question text
+}
+
+Table users {
+  id int [pk]
+  name varchar(60)
+  phoneNo varchar(15)
+  image text
+}
